@@ -5,11 +5,11 @@
 #import <Cocoa/Cocoa.h>
 #endif
 
-enum class ACTIVATIONPOLICY{
-    REGULAR,
-    ACCESSORY,
-    PROHIBITED,
+enum class ActivationPolicy{
+    Regular,
+    Accessory,
+    Prohibited,
 };
 
-void setActivationPolicy(ACTIVATIONPOLICY policy);
+void setActivationPolicy(ActivationPolicy policy);
 #endif // ACTIVATIONPOLICYSETTER_H

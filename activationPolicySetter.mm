@@ -1,14 +1,14 @@
 #include <activationPolicySetter.h>
 
-void setActivationPolicy(ACTIVATIONPOLICY policy){
+void setActivationPolicy(ActivationPolicy policy){
     switch(policy){
-        case ACTIVATIONPOLICY::REGULAR:
+        case ActivationPolicy::Regular:
             [NSApp setActivationPolicy: NSApplicationActivationPolicyRegular];
             break;
-        case ACTIVATIONPOLICY::ACCESSORY:
+        case ActivationPolicy::Accessory:
             [NSApp setActivationPolicy: NSApplicationActivationPolicyAccessory];
             break;
-        case ACTIVATIONPOLICY::PROHIBITED:
+        case ActivationPolicy::Prohibited:
             [NSApp setActivationPolicy: NSApplicationActivationPolicyProhibited];
             break;
     }

@@ -5,7 +5,6 @@
 
 #ifdef __OBJC__
 #import <Cocoa/Cocoa.h>
-//#import <IOKit/IOKitLib.h>
 #import <IOKit/hid/IOHidManager.h>
 #import <IOKit/hid/IOHIDKeys.h>
 #endif
